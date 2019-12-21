@@ -65,7 +65,7 @@ router.post(
 			// Return jsonwebtoken so that user can login after registering
 			const payload = {
 				user: {
-					id: user._id
+					id: user.id
 				}
 			};
 
